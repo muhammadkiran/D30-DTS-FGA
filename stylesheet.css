@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Bahnschrift;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1350px;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h1 {
+    color: #fffafa;
+}
+
+.container h2 {
+    color: #fffafa;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.logo {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.top-wrapper {
+    padding: 250px 0 200px 0;
+    background-image: url(https://images5.alphacoders.com/108/thumb-1920-1087304.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.booking {
+    background-color: rgba(34, 49, 52, 0.9);
+    cursor: pointer;
+    box-shadow: 0 7px #223134;
+}
+
+.booking:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 95px;
+    background-color: #f4f6f6;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h1 {
+    font-weight: normal;
+    color: #223134;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    z-index: 9;
+    transition: 0.35;
+    bottom: 0;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333333;
+    text-align: left;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+}
+
+.ti-plus::before {
+    content: "\e61a";
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.message-wrapper {
+    border-bottom: 0px solid #eee;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    padding-left: 20px;
+}
+
+footer img {
+    width: 20%;
+    border: 1px solid black;
+}
+
+.contact-form {
+    padding-top: 15px;
+    padding-left: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contact-pic {
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.submit-desc {
+    color: black;
+    text-align: center;
+    padding: 10px 250px;
+    background-color: #2f5167;
+}
+
+.submit-desc h2 {
+    color: white;
+    text-shadow: 3px 3px 0 #000;
+}
+
+.submit-desc p {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.wish {
+    color: #889eab;
+}
+
+.command {
+    color: red;
+}
+
+input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #000000;
+    padding: 12px 24px;
+    opacity: 0.8;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 7px rgb(77, 77, 77);
+}
+
+.contact-submit:hover {
+    opacity: 1;
+}
+
+.contact-submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.footer-submit {
+    cursor: pointer;
+}
+
+.footer-submit:hover {
+    text-decoration: underline;
+}
+
+.footer-submit:active {
+    text-decoration: wavy;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 160px;
+}
+
+.footer p {
+    padding-bottom: 5px;
+}
+
+.footer-logo {
+    float: left;
+    width: 16%;
+    padding-top: 45px;
+    padding-left: 20px;
+}
+
+.footer-list {
+    float: right;
+    padding-top: 17px;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear:left;
+}
